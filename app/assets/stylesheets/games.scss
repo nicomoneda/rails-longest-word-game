@@ -1,0 +1,55 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+  font-family: 'KomikaAxis';
+  src: url('KOMIKAX_.ttf');
+}
+
+@font-face {
+  font-family: 'TovariSans';
+  src: url('TovariSans.ttf');
+}
+
+body {
+  background-image: url('bg-launcher.png');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'KomikaAxis', sans-serif;
+  color: white;
+  -webkit-text-stroke-color: grey;
+  -webkit-text-stroke-width: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.longest-form {
+  display: flex;
+  justify-content: center;
+}
+
+.letter-class {
+  font-family: 'TovariSans', sans-serif;
+  color: white;
+  font-size: 28px;
+
+  width: 20px;
+  height: 28px;
+  text-align: center;
+  margin: 4px;
+  padding: 4px 8px;
+
+  border: solid;
+  border-color: grey;
+  border-radius: 5px;
+  border-width: 2px;
+
+  background-color: rgb(101, 155, 199);
+}
